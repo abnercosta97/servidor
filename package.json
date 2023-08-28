@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src",
-    "dev": "nodemon ./src"
+    "start": "ts-node ./src",
+    "dev": "nodemon ./src",
+    "js": "ts-node ./src/index2"
   },
   "keywords": [],
   "author": "",
